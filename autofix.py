@@ -1,4 +1,7 @@
-def example_function():
-    print('This is an example function.')  # Incorrect: single quotes should be double quotes
-    print("It has consistent indentation now.")
+# Intentionally unused import
+import unused_module
+
+def divide(a, b):
+    result = a/b
+    return result
 
