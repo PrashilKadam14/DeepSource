@@ -5,3 +5,9 @@ name = "python"
 
   [analyzers.meta]
   runtime_version = "3.x.x"
+  
+[auto_fix]
+  [auto_fix.python]
+    [auto_fix.python.string_quotes]
+      enabled = true
+      style = "double"  # Automatically fix string quotes to double quotes
