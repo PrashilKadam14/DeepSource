@@ -10,3 +10,7 @@ name = "python"
   [analysis.python]
     [analysis.python.bandit]
       enabled = true  # Enable Bandit security analysis
+      
+[[analyzers]]
+name = "secrets"
+enabled = true
